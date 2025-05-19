@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Descubra informações de uma música do YouTube de forma simples</h2>
+
+ <!-- create a reactive form above -->
+  <form [formGroup]="searchForm" (ngSubmit)="onSubmit()">
+      <mat-form-field class="searchLinkInput" appearance="outline" (ngSubmit)="onSubmit()">
+        <mat-label>Link do vídeo do YouTube</mat-label>
+        <input formControlName="search" matInput placeholder="Cole aqui o link do vídeo do YouTube..." />
+      </mat-form-field>
+    
+      <button mat-raised-button color="primary" type="submit">Pesquisar</button>
+  </form>
+</div>

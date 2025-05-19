@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.searchLinkInput {
+    width: 80%;
+    max-width: 30rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 30rem;
+}
+
+h2 {
+    margin: 1rem 1rem;
+    max-width: 30rem;
+    text-align: center;
+}
