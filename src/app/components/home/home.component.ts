@@ -24,13 +24,6 @@ export class HomeComponent {
   constructor(private router: Router) { }
   
   onSubmit() {
-    // Make connection with Youtube API
-    // fetch('https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&id=' + this.searchForm.get('search')?.value + '&key=AIzaSyBlQ9TQ_lhH_at0r92wjpB9ONLsialg-Vw')
-    //   .then(response => response.json())
-    //   .then(data => {
-    //     console.log(data);
-    //     // Handle the data from the API
-    //   })
     console.log(this.searchForm.get('search')?.value);
     this.router.navigate(['/info']);
   }
